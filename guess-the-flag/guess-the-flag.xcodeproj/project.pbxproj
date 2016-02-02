@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEFD72C91C60120600480BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD72C81C60120600480BDA /* AppDelegate.swift */; };
+		AEFD72CB1C60120600480BDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD72CA1C60120600480BDA /* ViewController.swift */; };
+		AEFD72CE1C60120600480BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFD72CC1C60120600480BDA /* Main.storyboard */; };
+		AEFD72D01C60120600480BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFD72CF1C60120600480BDA /* Assets.xcassets */; };
+		AEFD72D31C60120600480BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFD72D11C60120600480BDA /* LaunchScreen.storyboard */; };
+		AEFD72DE1C60120600480BDA /* guess_the_flagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD72DD1C60120600480BDA /* guess_the_flagTests.swift */; };
+		AEFD72E91C60120600480BDA /* guess_the_flagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD72E81C60120600480BDA /* guess_the_flagUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEFD72DA1C60120600480BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFD72BD1C60120600480BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEFD72C41C60120600480BDA;
+			remoteInfo = "guess-the-flag";
+		};
+		AEFD72E51C60120600480BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFD72BD1C60120600480BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEFD72C41C60120600480BDA;
+			remoteInfo = "guess-the-flag";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEFD72C51C60120600480BDA /* guess-the-flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guess-the-flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFD72C81C60120600480BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEFD72CA1C60120600480BDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEFD72CD1C60120600480BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEFD72CF1C60120600480BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEFD72D21C60120600480BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEFD72D41C60120600480BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFD72D91C60120600480BDA /* guess-the-flagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "guess-the-flagTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFD72DD1C60120600480BDA /* guess_the_flagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guess_the_flagTests.swift; sourceTree = "<group>"; };
+		AEFD72DF1C60120600480BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFD72E41C60120600480BDA /* guess-the-flagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "guess-the-flagUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFD72E81C60120600480BDA /* guess_the_flagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guess_the_flagUITests.swift; sourceTree = "<group>"; };
+		AEFD72EA1C60120600480BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEFD72C21C60120600480BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFD72D61C60120600480BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFD72E11C60120600480BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEFD72BC1C60120600480BDA = {
+			isa = PBXGroup;
+			children = (
+				AEFD72C71C60120600480BDA /* guess-the-flag */,
+				AEFD72DC1C60120600480BDA /* guess-the-flagTests */,
+				AEFD72E71C60120600480BDA /* guess-the-flagUITests */,
+				AEFD72C61C60120600480BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEFD72C61C60120600480BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD72C51C60120600480BDA /* guess-the-flag.app */,
+				AEFD72D91C60120600480BDA /* guess-the-flagTests.xctest */,
+				AEFD72E41C60120600480BDA /* guess-the-flagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEFD72C71C60120600480BDA /* guess-the-flag */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD72C81C60120600480BDA /* AppDelegate.swift */,
+				AEFD72CA1C60120600480BDA /* ViewController.swift */,
+				AEFD72CC1C60120600480BDA /* Main.storyboard */,
+				AEFD72CF1C60120600480BDA /* Assets.xcassets */,
+				AEFD72D11C60120600480BDA /* LaunchScreen.storyboard */,
+				AEFD72D41C60120600480BDA /* Info.plist */,
+			);
+			path = "guess-the-flag";
+			sourceTree = "<group>";
+		};
+		AEFD72DC1C60120600480BDA /* guess-the-flagTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD72DD1C60120600480BDA /* guess_the_flagTests.swift */,
+				AEFD72DF1C60120600480BDA /* Info.plist */,
+			);
+			path = "guess-the-flagTests";
+			sourceTree = "<group>";
+		};
+		AEFD72E71C60120600480BDA /* guess-the-flagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD72E81C60120600480BDA /* guess_the_flagUITests.swift */,
+				AEFD72EA1C60120600480BDA /* Info.plist */,
+			);
+			path = "guess-the-flagUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEFD72C41C60120600480BDA /* guess-the-flag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFD72ED1C60120600480BDA /* Build configuration list for PBXNativeTarget "guess-the-flag" */;
+			buildPhases = (
+				AEFD72C11C60120600480BDA /* Sources */,
+				AEFD72C21C60120600480BDA /* Frameworks */,
+				AEFD72C31C60120600480BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "guess-the-flag";
+			productName = "guess-the-flag";
+			productReference = AEFD72C51C60120600480BDA /* guess-the-flag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEFD72D81C60120600480BDA /* guess-the-flagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFD72F01C60120600480BDA /* Build configuration list for PBXNativeTarget "guess-the-flagTests" */;
+			buildPhases = (
+				AEFD72D51C60120600480BDA /* Sources */,
+				AEFD72D61C60120600480BDA /* Frameworks */,
+				AEFD72D71C60120600480BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEFD72DB1C60120600480BDA /* PBXTargetDependency */,
+			);
+			name = "guess-the-flagTests";
+			productName = "guess-the-flagTests";
+			productReference = AEFD72D91C60120600480BDA /* guess-the-flagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEFD72E31C60120600480BDA /* guess-the-flagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFD72F31C60120600480BDA /* Build configuration list for PBXNativeTarget "guess-the-flagUITests" */;
+			buildPhases = (
+				AEFD72E01C60120600480BDA /* Sources */,
+				AEFD72E11C60120600480BDA /* Frameworks */,
+				AEFD72E21C60120600480BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEFD72E61C60120600480BDA /* PBXTargetDependency */,
+			);
+			name = "guess-the-flagUITests";
+			productName = "guess-the-flagUITests";
+			productReference = AEFD72E41C60120600480BDA /* guess-the-flagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEFD72BD1C60120600480BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = pivotal;
+				TargetAttributes = {
+					AEFD72C41C60120600480BDA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AEFD72D81C60120600480BDA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AEFD72C41C60120600480BDA;
+					};
+					AEFD72E31C60120600480BDA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AEFD72C41C60120600480BDA;
+					};
+				};
+			};
+			buildConfigurationList = AEFD72C01C60120600480BDA /* Build configuration list for PBXProject "guess-the-flag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEFD72BC1C60120600480BDA;
+			productRefGroup = AEFD72C61C60120600480BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEFD72C41C60120600480BDA /* guess-the-flag */,
+				AEFD72D81C60120600480BDA /* guess-the-flagTests */,
+				AEFD72E31C60120600480BDA /* guess-the-flagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEFD72C31C60120600480BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFD72D31C60120600480BDA /* LaunchScreen.storyboard in Resources */,
+				AEFD72D01C60120600480BDA /* Assets.xcassets in Resources */,
+				AEFD72CE1C60120600480BDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFD72D71C60120600480BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFD72E21C60120600480BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEFD72C11C60120600480BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFD72CB1C60120600480BDA /* ViewController.swift in Sources */,
+				AEFD72C91C60120600480BDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFD72D51C60120600480BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFD72DE1C60120600480BDA /* guess_the_flagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFD72E01C60120600480BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFD72E91C60120600480BDA /* guess_the_flagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEFD72DB1C60120600480BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEFD72C41C60120600480BDA /* guess-the-flag */;
+			targetProxy = AEFD72DA1C60120600480BDA /* PBXContainerItemProxy */;
+		};
+		AEFD72E61C60120600480BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEFD72C41C60120600480BDA /* guess-the-flag */;
+			targetProxy = AEFD72E51C60120600480BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEFD72CC1C60120600480BDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFD72CD1C60120600480BDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEFD72D11C60120600480BDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFD72D21C60120600480BDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEFD72EB1C60120600480BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEFD72EC1C60120600480BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEFD72EE1C60120600480BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "guess-the-flag/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pivotal.io.guess-the-flag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEFD72EF1C60120600480BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "guess-the-flag/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pivotal.io.guess-the-flag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AEFD72F11C60120600480BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "guess-the-flagTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pivotal.io.guess-the-flagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guess-the-flag.app/guess-the-flag";
+			};
+			name = Debug;
+		};
+		AEFD72F21C60120600480BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "guess-the-flagTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pivotal.io.guess-the-flagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guess-the-flag.app/guess-the-flag";
+			};
+			name = Release;
+		};
+		AEFD72F41C60120600480BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "guess-the-flagUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pivotal.io.guess-the-flagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "guess-the-flag";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AEFD72F51C60120600480BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "guess-the-flagUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pivotal.io.guess-the-flagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "guess-the-flag";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEFD72C01C60120600480BDA /* Build configuration list for PBXProject "guess-the-flag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFD72EB1C60120600480BDA /* Debug */,
+				AEFD72EC1C60120600480BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFD72ED1C60120600480BDA /* Build configuration list for PBXNativeTarget "guess-the-flag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFD72EE1C60120600480BDA /* Debug */,
+				AEFD72EF1C60120600480BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEFD72F01C60120600480BDA /* Build configuration list for PBXNativeTarget "guess-the-flagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFD72F11C60120600480BDA /* Debug */,
+				AEFD72F21C60120600480BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEFD72F31C60120600480BDA /* Build configuration list for PBXNativeTarget "guess-the-flagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFD72F41C60120600480BDA /* Debug */,
+				AEFD72F51C60120600480BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEFD72BD1C60120600480BDA /* Project object */;
+}

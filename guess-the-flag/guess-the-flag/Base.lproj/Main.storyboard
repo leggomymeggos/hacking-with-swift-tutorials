@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XeN-G8-UfS">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="guess_the_flag" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gyz-86-H6m">
+                                <rect key="frame" x="200" y="100" width="200" height="100"/>
+                                <state key="normal" image="russia"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqZ-Dj-NHq">
+                                <rect key="frame" x="200" y="360" width="200" height="100"/>
+                                <state key="normal" image="ireland"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVG-EM-O9X">
+                                <rect key="frame" x="200" y="230" width="200" height="100"/>
+                                <state key="normal" image="germany"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hqZ-Dj-NHq" firstAttribute="centerY" secondItem="EVG-EM-O9X" secondAttribute="centerY" id="0aA-Z5-3IO"/>
+                            <constraint firstItem="Gyz-86-H6m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerXWithinMargins" id="6Tr-hf-QuO"/>
+                            <constraint firstItem="hqZ-Dj-NHq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="70f-5u-mNz"/>
+                            <constraint firstItem="hqZ-Dj-NHq" firstAttribute="top" secondItem="EVG-EM-O9X" secondAttribute="bottom" constant="30" id="97x-7P-Qin"/>
+                            <constraint firstItem="hqZ-Dj-NHq" firstAttribute="centerX" secondItem="EVG-EM-O9X" secondAttribute="centerX" id="FLL-yD-aWH"/>
+                            <constraint firstItem="EVG-EM-O9X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerXWithinMargins" id="HNM-eZ-fXQ"/>
+                            <constraint firstItem="Gyz-86-H6m" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="36" id="KHU-us-D0t"/>
+                            <constraint firstItem="EVG-EM-O9X" firstAttribute="top" secondItem="Gyz-86-H6m" secondAttribute="bottom" constant="30" id="Pni-AZ-H3d"/>
+                            <constraint firstItem="EVG-EM-O9X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RN5-wi-NeE"/>
+                            <constraint firstItem="EVG-EM-O9X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bx8-da-kO1"/>
+                            <constraint firstItem="EVG-EM-O9X" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="167" id="e4X-xB-OG0"/>
+                            <constraint firstItem="EVG-EM-O9X" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="166" id="fm9-XN-Yao"/>
+                            <constraint firstItem="hqZ-Dj-NHq" firstAttribute="centerY" secondItem="EVG-EM-O9X" secondAttribute="centerY" id="u1b-Ic-txF"/>
+                            <constraint firstItem="EVG-EM-O9X" firstAttribute="centerX" secondItem="Gyz-86-H6m" secondAttribute="centerX" id="uzl-b9-BpI"/>
+                            <constraint firstItem="hqZ-Dj-NHq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="296" id="zKA-Sb-VQW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="HNM-eZ-fXQ"/>
+                                <exclude reference="RN5-wi-NeE"/>
+                                <exclude reference="bx8-da-kO1"/>
+                                <exclude reference="e4X-xB-OG0"/>
+                                <exclude reference="fm9-XN-Yao"/>
+                                <exclude reference="0aA-Z5-3IO"/>
+                                <exclude reference="70f-5u-mNz"/>
+                                <exclude reference="u1b-Ic-txF"/>
+                                <exclude reference="zKA-Sb-VQW"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="2nZ-d0-J7Q"/>
+                    <connections>
+                        <outlet property="button1" destination="Gyz-86-H6m" id="QhP-tj-u3t"/>
+                        <outlet property="button2" destination="EVG-EM-O9X" id="rUa-Ci-MBc"/>
+                        <outlet property="button3" destination="hqZ-Dj-NHq" id="pkF-Wx-aGH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1513" y="913"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XrZ-t8-Aey">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XeN-G8-UfS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XhF-uK-EvK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cfD-ws-Upc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kMQ-H8-c4K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="913"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="germany" width="200" height="100"/>
+        <image name="ireland" width="200" height="100"/>
+        <image name="russia" width="200" height="100"/>
+    </resources>
+</document>
